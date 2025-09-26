@@ -10,17 +10,21 @@ Projede, Kaggle'da bulunan "Dogs vs. Cats" veri seti kullanılmıştır. Bu veri
 # Kullanılan Yöntemler
 Projenin bu amacına ulaşmak için aşağıdaki yöntemler uygulanmıştır:
 
-## Veri Ön İşleme ve Veri Çoğaltma: ImageDataGenerator kullanılarak görseller yeniden boyutlandırılmış, normalleştirilmiş ve modelin daha iyi genelleme yapması için rastgele döndürme, kaydırma ve yakınlaştırma gibi teknikler uygulanmıştır.
+### Veri Ön İşleme ve Veri Çoğaltma: 
+ImageDataGenerator kullanılarak görseller yeniden boyutlandırılmış, normalleştirilmiş ve modelin daha iyi genelleme yapması için rastgele döndürme, kaydırma ve yakınlaştırma gibi teknikler uygulanmıştır.
 
-## CNN Mimarisi: Model, evrişim (Convolutional), havuzlama (Pooling), dropout ve yoğun (Dense) katmanlarından oluşan özel bir CNN yapısıdır.
+### CNN Mimarisi:
+Model, evrişim (Convolutional), havuzlama (Pooling), dropout ve yoğun (Dense) katmanlarından oluşan özel bir CNN yapısıdır.
 
-## Hiperparametre Optimizasyonu: Modelin performansını artırmak amacıyla farklı öğrenme oranları (1e-4 ve 1e-3) üzerinde denemeler yapılmıştır.
+### Hiperparametre Optimizasyonu: 
+Modelin performansını artırmak amacıyla farklı öğrenme oranları (1e-4 ve 1e-3) üzerinde denemeler yapılmıştır.
 
-## Model Yorumlama: Modelin bir görseli sınıflandırırken hangi bölgelere odaklandığını göstermek için Grad-CAM görselleştirme tekniği kullanılmıştır.
+### Model Yorumlama: 
+Modelin bir görseli sınıflandırırken hangi bölgelere odaklandığını göstermek için Grad-CAM görselleştirme tekniği kullanılmıştır.
 
 # Elde Edilen Sonuçlar
 Yapılan denemeler sonucunda, en iyi performansı gösteren modelin doğrulama doğruluğu (validation accuracy) %84.70 olarak ölçülmüştür. Bu sonuç, modelin daha önce hiç görmediği görselleri başarıyla sınıflandırabildiğini göstermektedir.
 
 # Kaggle Notebook
-[[Kaggle Notebook'unuzun Linkini Buraya Yapıştırın](https://www.kaggle.com/code/yavasevval/dogs-vs-cats-proje-26-09-25)]
+[[Kaggle Notebook'umun Linki](https://www.kaggle.com/code/yavasevval/dogs-vs-cats-proje-26-09-25)]
 
